@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+  margin:0px;
+  box-sizing: border-box;
+  padding: 0px;
+  /* background-color: #007bff; */
+}
+
+header{
+  display: flex;
+  
+}
+ul{
+  display: flex;
+  color:green;
+  padding:20px;
+  gap:10px;
+  transition: background-color 0.3s ease-in-out, color 0.2s ease-in;
+
+  /* margin-left: 550px; */
+  /* margin-left: 850px; */
+  /* margin-right: auto; */
+  /* justify-content: center; */
+  
+}
+li{
+  display: flex;
+  gap:3;
+}
+
+
+ul li:hover{
+   /* background-color: #eee;  */
+   color: #007bff;  
+   transition: opacity 0.3s ease-in-out; 
+    bottom: -2px;
+
+} 
+
+
+
+
+
